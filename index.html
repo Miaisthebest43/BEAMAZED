@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SNACK SYNC 3000 — Commercial Competition</title>
+<meta name="description" content="Full commercial plan, cast, script, jingle and production notes for The Snack Sync 3000." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a class="nav-logo" href="#top">🍪 <span>SNACK SYNC</span></a>
+  <div class="nav-links">
+    <a href="#pitch">Pitch</a>
+    <a href="#cast">Cast</a>
+    <a href="#script">Script</a>
+    <a href="#offer">Offer</a>
+    <a href="#jingle">Jingle</a>
+    <a href="#production">Production</a>
+    <a href="#checklist">Checklist</a>
+  </div>
+  <div class="nav-actions">
+    <button class="icon-btn" id="themeBtn" title="Toggle light / dark">🌙</button>
+    <button class="icon-btn" id="printBtn" title="Print everything">🖨️</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-glow"></div>
+  <div class="hero-emojis" aria-hidden="true">
+    <span>🍪</span><span>🍫</span><span>🥨</span><span>🍿</span><span>🧠</span><span>📚</span><span>⚡</span><span>🍩</span>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-badge">📺 COMMERCIAL COMPETITION · INFOMERCIAL DIVISION</div>
+    <h1 class="hero-title">
+      <span class="t1">SNACK</span>
+      <span class="t2">SYNC</span>
+      <span class="t3">3000</span>
+    </h1>
+    <p class="hero-sub">The device that turns homework into snacks.<br><strong>Study smart. Snack hard.</strong></p>
+
+    <div class="hero-chips">
+      <span class="chip">⏱️ 2:40 run time</span>
+      <span class="chip">🎭 5 actors</span>
+      <span class="chip">🎬 6 scenes</span>
+      <span class="chip">🎵 Original jingle</span>
+      <span class="chip">🌴 Not available in Florida</span>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#script" class="btn btn-primary">Read the Full Script →</a>
+      <button class="btn btn-ghost" id="jingleHeroBtn">🎧 Play the Jingle Beat</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ PITCH ============ -->
+<section class="section reveal" id="pitch">
+  <div class="section-head">
+    <span class="eyebrow">01 · The Product</span>
+    <h2>What are we selling?</h2>
+    <p class="lede">An original invention designed to improve quality of life — and make homework suck less.</p>
+  </div>
+
+  <div class="grid-2">
+    <article class="panel accent-cyan">
+      <h3>🍪 The Snack Sync 3000</h3>
+      <p class="big">A smart desk device that sits next to your homework and <strong>dispenses a small snack every time you complete a problem or focus for 10 minutes.</strong></p>
+      <p>Parents load it with healthy snacks and set the goals. It turns boring homework into a rewarding game — <em>you solve, you snack, you stay motivated.</em></p>
+      <ul class="ticks">
+        <li>Turns homework into a reward loop</li>
+        <li>Grades go up · stress goes down</li>
+        <li>Parents finally stop nagging</li>
+        <li>Runs on pure motivation (and crackers)</li>
+      </ul>
+    </article>
+
+    <article class="panel">
+      <h3>🎯 Why it works</h3>
+      <div class="stat-row">
+        <div class="stat"><b>DING!</b><span>instant reward</span></div>
+        <div class="stat"><b>10 min</b><span>focus timer</span></div>
+        <div class="stat"><b>A+</b><span>guaranteed*</span></div>
+      </div>
+      <p class="fine">*Not actually guaranteed. That's what the stipulations are for.</p>
+      <div class="callout">
+        <strong>The core idea:</strong> the brain loves snacks more than it loves fractions. So we bribed the brain.
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CAST ============ -->
+<section class="section reveal" id="cast">
+  <div class="section-head">
+    <span class="eyebrow">02 · Cast &amp; Roles</span>
+    <h2>Five actors. Everyone speaks.</h2>
+    <p class="lede">Tap <b>🔦 Focus</b> on a character to dim everyone else's lines while you rehearse. Tap <b>🖨️</b> to print just your part.</p>
+  </div>
+
+  <div class="cast-grid">
+
+    <article class="cast-card" data-char="NARRATOR" style="--c:var(--amber)">
+      <div class="cast-top"><span class="cast-emoji">🎙️</span><span class="cast-role">Narrator</span></div>
+      <h3>[Name]</h3>
+      <p class="cast-desc">Loud, dramatic infomercial announcer. Wears sunglasses. Delivers the offer, the Florida rant, and the big finish.</p>
+      <p class="cast-lines">Lines in scenes 1, 2, 4, 5, 6</p>
+      <div class="cast-btns">
+        <button class="mini" data-focus="NARRATOR">🔦 Focus</button>
+        <button class="mini" data-printfocus="NARRATOR">🖨️ Print</button>
+      </div>
+    </article>
+
+    <article class="cast-card" data-char="SAM" style="--c:var(--cyan)">
+      <div class="cast-top"><span class="cast-emoji">😩</span><span class="cast-role">Lead · Struggling Sam</span></div>
+      <h3>[Name]</h3>
+      <p class="cast-desc">Hates homework. Big physical comedy: head-on-desk, violent erasing, face-down flop, then total manic joy.</p>
+      <p class="cast-lines">Lines in scenes 1, 2, 3</p>
+      <div class="cast-btns">
+        <button class="mini" data-focus="SAM">🔦 Focus</button>
+        <button class="mini" data-printfocus="SAM">🖨️ Print</button>
+      </div>
+    </article>
+
+    <article class="cast-card" data-char="FRAN" style="--c:var(--red)">
+      <div class="cast-top"><span class="cast-emoji">☕</span><span class="cast-role">Lead · Frustrated Fran (Mom)</span></div>
+      <h3>[Name]</h3>
+      <p class="cast-desc">Tired, worried parent with a coffee cup. Enters twice — exhausted in Scene 1, fainting with joy in Scene 3.</p>
+      <p class="cast-lines">Lines in scenes 1, 3</p>
+      <div class="cast-btns">
+        <button class="mini" data-focus="FRAN">🔦 Focus</button>
+        <button class="mini" data-printfocus="FRAN">🖨️ Print</button>
+      </div>
+    </article>
+
+    <article class="cast-card" data-char="HANNAH" style="--c:var(--lime)">
+      <div class="cast-top"><span class="cast-emoji">🌟</span><span class="cast-role">Testimonial · Happy Hannah</span></div>
+      <h3>[Name]</h3>
+      <p class="cast-desc">Upbeat, glowing testimonial. Also the designated confetti-thrower at the finale.</p>
+      <p class="cast-lines">Line in scene 3</p>
+      <div class="cast-btns">
+        <button class="mini" data-focus="HANNAH">🔦 Focus</button>
+        <button class="mini" data-printfocus="HANNAH">🖨️ Print</button>
+      </div>
+    </article>
+
+    <article class="cast-card" data-char="DAVE" style="--c:var(--violet)">
+      <div class="cast-top"><span class="cast-emoji">🍕</span><span class="cast-role">Testimonial · Distracted Dave</span></div>
+      <h3>[Name]</h3>
+      <p class="cast-desc">Comic-relief testimonial. C-minus to A. Pats stomach on the punchline. Steals the scene.</p>
+      <p class="cast-lines">Line in scene 3</p>
+      <div class="cast-btns">
+        <button class="mini" data-focus="DAVE">🔦 Focus</button>
+        <button class="mini" data-printfocus="DAVE">🖨️ Print</button>
+      </div>
+    </article>
+
+  </div>
+  <p class="hint">Short on actors? Give Hannah's line to Fran and Dave's line to Sam. Narrator counts as a required speaker.</p>
+</section>
+
+<!-- ============ SCRIPT ============ -->
+<section class="section reveal" id="script">
+  <div class="section-head">
+    <span class="eyebrow">03 · Full Performance Script</span>
+    <h2>🎬 The Snack Sync 3000</h2>
+    <p class="lede">Print-ready. Stage directions in <span class="mono">mono</span>. Character lines are color-coded.</p>
+  </div>
+
+  <div class="script-toolbar">
+    <button class="btn btn-sm" id="copyAllBtn">📋 Copy Full Script</button>
+    <button class="btn btn-sm btn-ghost" id="clearFocusBtn">👁️ Show Everyone</button>
+    <span class="toolbar-note">Rehearsal mode: dimming active → <b id="focusLabel">off</b></span>
+  </div>
+
+  <!-- SCENE 1 -->
+  <article class="scene" id="scene1">
+    <header class="scene-head">
+      <span class="scene-num">Scene 1</span>
+      <h3>Life Before</h3>
+      <span class="scene-time">≈35s</span>
+      <button class="mini copy-scene">📋 Copy</button>
+    </header>
+
+    <p class="stage">LIGHTS UP on a messy desk. Sad violin music plays. STRUGGLING SAM sits slumped in the chair, staring at a mountain of homework. A phone buzzes. Sam picks it up, scrolls, then throws it down.</p>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="dir">(groaning, head on desk)</span><span class="say">"Ugh… homework. Why does it exist? I'd rather… I'd rather watch paint dry. And then watch it dry AGAIN."</span></div>
+
+    <p class="stage">Sam picks up a pencil, tries to write, erases violently, crumples the paper, and throws it across the room. Pause. Sam stares blankly at the wall.</p>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="dir">(deadpan)</span><span class="say">"I've been staring at this same problem for forty-five minutes. I don't even know what a fraction IS anymore."</span></div>
+
+    <p class="stage">FRUSTRATED FRAN enters, holding a cup of coffee, looking exhausted.</p>
+
+    <div class="line" data-char="FRAN"><span class="who">FRAN</span><span class="say">"Sam. Sweetie. It's 8 PM. Did you finish your homework?"</span></div>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="dir">(guilty, hiding papers)</span><span class="say">"…Define 'finish.'"</span></div>
+
+    <div class="line" data-char="FRAN"><span class="who">FRAN</span><span class="dir">(rubs temples, sighs deeply)</span><span class="say">"Every. Single. Night. With this kid."</span></div>
+
+    <p class="stage">Sam flops face-down on the desk. TOTAL DEFEAT. Freeze frame. Sad violin SWELLS.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="dir">(V.O., dramatic)</span><span class="say">"Does this look familiar? The homework struggle… is REAL. But what if homework… could be <em>delicious</em>?"</span></div>
+
+    <p class="stage stage-cue">LIGHTS CUT. Music stops abruptly. Beat of silence.</p>
+  </article>
+
+  <!-- SCENE 2 -->
+  <article class="scene" id="scene2">
+    <header class="scene-head">
+      <span class="scene-num">Scene 2</span>
+      <h3>The Product Is Introduced</h3>
+      <span class="scene-time">≈40s</span>
+      <button class="mini copy-scene">📋 Copy</button>
+    </header>
+
+    <p class="stage">LIGHTS FLASH ON. Upbeat, loud infomercial music BLASTS. NARRATOR bursts onto stage, sunglasses on, pointing dramatically.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"INTRODUCING… the revolutionary, the incredible, the one-and-only… <strong>SNACK SYNC 3000</strong>!!"</span></div>
+
+    <p class="stage">Narrator reveals the product — the decorated box with a snack bowl.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"Just load it with your favorite snacks… set your homework goal… and GET TO WORK! Every time you solve a problem — <b class="ding">DING!</b> — a snack drops right out!"</span></div>
+
+    <p class="stage">Sam sits up, suddenly VERY interested.</p>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="say">"Wait. Hold on. You're telling me… I get a SNACK… for doing HOMEWORK?"</span></div>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"That's right, Sam! Watch this!"</span></div>
+
+    <p class="stage">Sam picks up a pencil, solves an imaginary math problem with exaggerated effort, then SLAMS the pencil down.</p>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="say">"DONE!"</span></div>
+
+    <p class="stage stage-cue">🔔 <b class="ding">DING!</b> A snack drops into the bowl. Sam's eyes go WIDE.</p>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="dir">(whispering, amazed)</span><span class="say">"…It's beautiful."</span></div>
+
+    <p class="stage">Sam solves another problem. <b class="ding">DING!</b> Another snack. Sam solves faster and faster — <b class="ding">DING!</b> <b class="ding">DING!</b> <b class="ding">DING!</b> — snacks flying everywhere. Sam cackles with joy.</p>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="dir">(manic)</span><span class="say">"I LOVE HOMEWORK! I'M A GENIUS! I'M A SNACK GENIUS!!"</span></div>
+  </article>
+
+  <!-- SCENE 3 -->
+  <article class="scene" id="scene3">
+    <header class="scene-head">
+      <span class="scene-num">Scene 3</span>
+      <h3>Life After</h3>
+      <span class="scene-time">≈35s</span>
+      <button class="mini copy-scene">📋 Copy</button>
+    </header>
+
+    <p class="stage">Music shifts to a happy, bouncy tune. Sam is now calm, smiling, snack in one hand, pencil in the other, homework neatly stacked. Fran enters, stops dead in her tracks.</p>
+
+    <div class="line" data-char="FRAN"><span class="who">FRAN</span><span class="dir">(shocked, hand on chest)</span><span class="say">"Sam… you're… you're DONE with your homework?! It's only 5 PM!"</span></div>
+
+    <div class="line" data-char="SAM"><span class="who">SAM</span><span class="dir">(cool, confident)</span><span class="say">"Yep. Finished an hour ago. I got a snack for every problem. I'm basically a genius now."</span></div>
+
+    <p class="stage">Sam dramatically holds up the test with <b>A+</b> written in big red marker.</p>
+
+    <div class="line" data-char="FRAN"><span class="who">FRAN</span><span class="dir">(gasps, then FAINTS backward into a chair — recovers instantly)</span><span class="say">"My baby's a straight-A student!"</span></div>
+
+    <p class="stage">HAPPY HANNAH steps forward for her testimonial.</p>
+
+    <div class="line" data-char="HANNAH"><span class="who">HANNAH</span><span class="say">"I used to HATE homework. Now? I actually look forward to it! The Snack Sync 3000 changed my life!"</span></div>
+
+    <p class="stage">DISTRACTED DAVE steps forward, holding his own A+ test.</p>
+
+    <div class="line" data-char="DAVE"><span class="who">DAVE</span><span class="say">"I went from a C-minus student… to an A student. And I've never been happier… OR more full."</span><span class="dir">(pats stomach)</span></div>
+  </article>
+
+  <!-- SCENE 4 -->
+  <article class="scene" id="scene4">
+    <header class="scene-head">
+      <span class="scene-num">Scene 4</span>
+      <h3>The Offer</h3>
+      <span class="scene-time">≈25s</span>
+      <button class="mini copy-scene">📋 Copy</button>
+    </header>
+
+    <p class="stage">NARRATOR steps to center stage, holds up the product, points at the audience.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"Now, how much would you pay for better grades, happier parents, and snacks ON DEMAND? $100? $200?"</span></div>
+
+    <p class="stage">Beat.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"NO! The Snack Sync 3000 is yours for just <strong>3 easy payments of $19.99</strong>!!"</span></div>
+
+    <p class="stage">Narrator leans in, whispers intensely.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"But WAIT — there's MORE! Order within the next <strong>10 MINUTES</strong>, and we'll throw in a <strong>FREE Snack Refill Kit</strong> — a $20 value — PLUS a <strong>bonus mini Snack Sync</strong> for your backpack! That's a <strong>$40 value — absolutely FREE!</strong>"</span></div>
+
+    <p class="stage">Narrator holds up the "FREE GIFT" sign and the mini box.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"CALL NOW! Operators are standing by!"</span></div>
+  </article>
+
+  <!-- SCENE 5 -->
+  <article class="scene" id="scene5">
+    <header class="scene-head">
+      <span class="scene-num">Scene 5</span>
+      <h3>The Stipulations</h3>
+      <span class="scene-time">≈20s</span>
+      <button class="mini copy-scene">📋 Copy</button>
+    </header>
+
+    <p class="stage">NARRATOR reads FAST and FUNNY, like a legal disclaimer — then slows down for the Florida part.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say">"Snacks NOT included. Not available in schools that ban snacks. May cause excessive studying, improved grades, and uncontrollable happiness. Do not use if allergic to snacks. Side effects may include happy parents, sudden love for math, and an addiction to learning. Not responsible for snack overconsumption. Void where prohibited. Results may vary. The Snack Sync 3000 is not a substitute for actual brain power."</span></div>
+
+    <p class="stage stage-cue">Beat. Narrator takes off sunglasses, looks directly at the audience.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="say"><strong>"NOT AVAILABLE IN FLORIDA."</strong></span></div>
+
+    <p class="stage">Dead serious pause.</p>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="dir">(whispering)</span><span class="say">"Florida… we love you. But between the alligators, the sinkholes, the humidity, and whatever Florida Man is doing this week… we simply cannot insure this product there."</span></div>
+
+    <div class="line" data-char="NARRATOR"><span class="who">NARRATOR</span><span class="dir">(leaning in)</span><span class="say">"If you live in Florida and you still want one — good luck, godspeed, and please do not feed the device to a gator. Also not available in any state shaped like a hand. You know who you are. Stop asking."</span></div>
+
+    <p class="stage stage-cue">Beat. Narrator puts sunglasses back on, smiles brightly.</p>
+  </article>
+
+  <!-- SCENE 6 -->
+  <article class="scene" id="scene6">
+    <header class="scene-head">
+      <span class="scene-num">Scene 6</span>
+      <h3>The Jingle</h3>
+      <span class="scene-time">≈25s</span>
+      <button class="mini copy-scene">📋 Copy</button>
+    </header>
+
+    <p class="stage">Entire cast lines up center stage. Music kicks in. Everyone sings and dances — simple choreography: sway, point, snack-drop hands.</p>
+
+    <div class="jingle-block">
+      <p class="jingle-line">🎵 When your homework's got you down,</p>
+      <p class="jingle-line">And you're wearing a big ol' frown,</p>
+      <p class="jingle-line">Just solve a problem — hear the sound —</p>
+      <p class="jingle-line"><b class="ding">DING!</b> A snack is coming 'round!</p>
+      <p class="jingle-line jingle-hook">Snack Sync 3000! Study smart, snack hard!</p>
+      <p class="jingle-line jingle-hook">Snack Sync 3000! Get yours today! 🎵</p>
+    </div>
+
+    <p class="stage">Big finish: everyone strikes a pose — Sam holds up the A+ test, Narrator holds up the product, Fran and Dave hold snacks, Hannah throws confetti.</p>
+
+    <div class="line" data-char="ALL"><span class="who">ALL</span><span class="say">"SNACK SYNC 3000!!"</span></div>
+
+    <p class="stage stage-cue">LIGHTS OUT. End.</p>
+  </article>
+</section>
+
+<!-- ============ OFFER ============ -->
+<section class="section reveal" id="offer">
+  <div class="section-head">
+    <span class="eyebrow">04 · The Infomercial Offer</span>
+    <h2>But wait — there's more.</h2>
+  </div>
+
+  <div class="offer-panel">
+    <div class="offer-left">
+      <span class="offer-tag">LIMITED TIME</span>
+      <h3>3 easy payments of</h3>
+      <div class="price">$19.99</div>
+      <p class="offer-fine">Or one payment of $59.99. Your call.</p>
+    </div>
+    <div class="offer-right">
+      <h4>Order in the next <span class="pulse">10 MINUTES</span> and get:</h4>
+      <ul class="gift-list">
+        <li><span>🎁</span><div><b>FREE Snack Refill Kit</b><small>$20 value</small></div></li>
+        <li><span>🎒</span><div><b>Bonus Mini Snack Sync</b><small>for your backpack</small></div></li>
+        <li><span>💰</span><div><b>$40 total value — FREE</b><small>absolutely free</small></div></li>
+      </ul>
+      <p class="call-now">📞 CALL NOW! Operators are standing by!</p>
+    </div>
+  </div>
+
+  <!-- FLORIDA WARNING BADGE -->
+  <div class="florida-banner" role="note" aria-label="Florida warning">
+    <div class="florida-icon">🌴</div>
+    <div class="florida-text">
+      <strong>⚠️ FLORIDA WARNING</strong>
+      <span>This product is <b>NOT</b> available in Florida. Alligators. Sinkholes. Humidity. Florida Man. We are not insured for any of it.</span>
+    </div>
+    <div class="florida-icon">🐊</div>
+  </div>
+
+  <div class="stipulations">
+    <h4>⚠️ Stipulations &amp; Fine Print</h4>
+    <p>Snacks <b>NOT</b> included. Not available in schools that ban snacks. May cause excessive studying, improved grades, and uncontrollable happiness. Do not use if allergic to snacks. Side effects may include happy parents, sudden love for math, and an addiction to learning. Not responsible for snack overconsumption. <b>NOT AVAILABLE IN FLORIDA</b> — <em>(sorry, Florida, we love you, but between the alligators, the sinkholes, the humidity, and whatever Florida Man is doing this week, we simply cannot insure this product in your state)</em>. Not available in any state shaped like a hand. Void where prohibited. Results may vary. The Snack Sync 3000 is not a substitute for actual brain power. If you are reading this in Florida right now, blink twice so we know you're okay.</p>
+  </div>
+</section>
+
+<!-- ============ JINGLE ============ -->
+<section class="section reveal" id="jingle">
+  <div class="section-head">
+    <span class="eyebrow">05 · Jingle</span>
+    <h2>🎵 The earworm.</h2>
+    <p class="lede">Hit play for a click track that highlights each line as you rehearse it.</p>
+  </div>
+
+  <div class="beat-console">
+    <button class="btn btn-primary" id="beatBtn">▶️ Play the Beat</button>
+    <div class="beat-meta">
+      <span id="beatBpm">112 BPM</span>
+      <span class="beat-dots" id="beatDots"><i></i><i></i><i></i><i></i></span>
+    </div>
+    <button class="btn btn-ghost btn-sm" id="speakBtn">🗣️ Read It Aloud</button>
+  </div>
+
+  <div class="jingle-stage" id="jingleStage">
+    <p class="jl">🎵 When your homework's got you down,</p>
+    <p class="jl">And you're wearing a big ol' frown,</p>
+    <p class="jl">Just solve a problem — hear the sound —</p>
+    <p class="jl"><b class="ding">DING!</b> A snack is coming 'round!</p>
+    <p class="jl hook">Snack Sync 3000! Study smart, snack hard!</p>
+    <p class="jl hook">Snack Sync 3000! Get yours today! 🎵</p>
+  </div>
+
+  <div class="slogan-box">
+    <h4>Need a backup slogan?</h4>
+    <p id="sloganOut" class="slogan-out">"Snack Sync 3000: study smart, snack hard."</p>
+    <button class="btn btn-sm" id="sloganBtn">🎲 Generate Random Slogan</button>
+  </div>
+</section>
+
+<!-- ============ PRODUCTION ============ -->
+<section class="section reveal" id="production">
+  <div class="section-head">
+    <span class="eyebrow">06 · Production</span>
+    <h2>Director's notes.</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-row"><span>S1</span><div class="tl-bar" style="--w:22%">35s</div><em>Life Before</em></div>
+    <div class="tl-row"><span>S2</span><div class="tl-bar" style="--w:25%">40s</div><em>Product</em></div>
+    <div class="tl-row"><span>S3</span><div class="tl-bar" style="--w:22%">35s</div><em>Life After</em></div>
+    <div class="tl-row"><span>S4</span><div class="tl-bar" style="--w:16%">25s</div><em>Offer</em></div>
+    <div class="tl-row"><span>S5</span><div class="tl-bar" style="--w:13%">20s</div><em>Stips 🌴</em></div>
+    <div class="tl-row"><span>S6</span><div class="tl-bar" style="--w:16%">25s</div><em>Jingle</em></div>
+  </div>
+  <p class="hint">Total ≈ <b>2 minutes 40 seconds.</b></p>
+
+  <div class="grid-3">
+    <article class="panel">
+      <h3>🎒 Props</h3>
+      <ul class="ticks">
+        <li>Pile of crumpled paper</li>
+        <li>Fake test with <b>A+</b> in red marker</li>
+        <li>Cardboard box decorated as the device</li>
+        <li>Bag of snack crackers / cereal</li>
+        <li>Phone</li>
+        <li>"FREE GIFT" sign + fake mini box</li>
+        <li>Optional: confetti, narrator sunglasses</li>
+      </ul>
+    </article>
+
+    <article class="panel">
+      <h3>🔊 Sound Cues</h3>
+      <ol class="cues">
+        <li><b>Sad violin</b> — Scene 1</li>
+        <li><b>Record scratch</b> silence — end of Scene 1</li>
+        <li><b>Upbeat infomercial music</b> — Scene 2</li>
+        <li><b>DING!</b> × 3–5 — Scene 2</li>
+        <li><b>Happy bouncy tune</b> — Scene 3</li>
+        <li><b>Dramatic offer music</b> — Scene 4</li>
+        <li><b>Jingle backing</b> — Scene 6 (or a cappella)</li>
+      </ol>
+    </article>
+
+    <article class="panel">
+      <h3>🎯 Pro Tips</h3>
+      <ul class="ticks">
+        <li>The <b>DING!</b> is the star. Real bell, phone sound, or someone yelling it off-stage.</li>
+        <li>Sam's physical comedy carries Scene 1. Go BIG.</li>
+        <li>Narrator = loud and shameless in Scenes 2 &amp; 4 — then <b>dead serious</b> for Florida in Scene 5. The tonal shift is the joke.</li>
+        <li>Take sunglasses OFF for the Florida line, put them back on after. It lands.</li>
+        <li>Everyone does the "snack drop" hand motion on every DING in the finale.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CHECKLIST ============ -->
+<section class="section reveal" id="checklist">
+  <div class="section-head">
+    <span class="eyebrow">07 · Requirements</span>
+    <h2>Every box, ticked.</h2>
+    <p class="lede">Your progress is saved in this browser automatically.</p>
+  </div>
+
+  <div class="check-wrap">
+    <div class="check-progress">
+      <div class="ring"><span id="ringPct">0%</span></div>
+      <p><b id="doneCount">0</b> of <b id="totalCount">7</b> requirements complete</p>
+    </div>
+
+    <ul class="checklist" id="checklistList">
+      <li><label><input type="checkbox" data-check="original"><span>Original product that improves quality of life</span></label></li>
+      <li><label><input type="checkbox" data-check="appropriate"><span>School appropriate</span></label></li>
+      <li><label><input type="checkbox" data-check="everyone"><span>Everyone appears on stage and says at least one line</span></label></li>
+      <li><label><input type="checkbox" data-check="structure"><span>Follows "life before → product → life after" structure</span></label></li>
+      <li><label><input type="checkbox" data-check="infomercial"><span>Infomercial style with special offer ("next 10 minutes!")</span></label></li>
+      <li><label><input type="checkbox" data-check="stips"><span>Includes stipulations / fine print (Florida edition 🌴)</span></label></li>
+      <li><label><input type="checkbox" data-check="jingle"><span>Includes a jingle or slogan at the end</span></label></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ SWAPS ============ -->
+<section class="section reveal" id="swaps">
+  <div class="section-head">
+    <span class="eyebrow">08 · Plan B</span>
+    <h2>Swap the product, keep the script.</h2>
+    <p class="lede">Change one word and the entire commercial still works. (Florida ban applies to all of them.)</p>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Product</th><th>What it does</th><th>Jingle rhyme</th></tr></thead>
+      <tbody>
+        <tr><td><b>Focus Foam 5000</b></td><td>Sprays a focus mist that makes homework fun</td><td>"Spray it once, spray it twice — focus foam is extra nice!"</td></tr>
+        <tr><td><b>The Homework Hologram</b></td><td>Projects a hologram tutor that hypes you up</td><td>"Holo, holo, homework's done — the hologram has just begun!"</td></tr>
+        <tr><td><b>Chore Cheer 3000</b></td><td>Turns chores into a game with points</td><td>"Sweep and mop and get a cheer — Chore Cheer 3000's here!"</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>🍪 <b>SNACK SYNC 3000</b> — Study smart. Snack hard.</p>
+  <p class="fine">Commercial Competition · Infomercial Division · Not available in Florida. Seriously. We mean it. 🌴🐊</p>
+</footer>
+
+<button class="fab" id="fabTop" title="Back to top">↑</button>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
